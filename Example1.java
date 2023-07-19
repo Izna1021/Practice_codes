@@ -2,10 +2,6 @@ class Example1 {
     public static void main(String args[]) {
     int num1, num2;
     try {
-    /* We suspect that this block of statement can throw 
-    * exception so we handled it by placing these statements
-    * inside try and handled the exception in catch block
-    */
     num1 = 0;
     num2 = 62 / num1;
     System.out.println(num2);

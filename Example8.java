@@ -1,6 +1,6 @@
 public class Example8 {
    public static void main(String[] args) {
-      char operator = '%';                  // assumed either '+', '-', '*', '/' only
+      char operator = '%';                  
       int operand1 = 5, operand2 = 6, result = 0;
       switch (operator) {
          case '+': result = operand1 + operand2; break;
